@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gas-tronomy</title>
+    <link rel="stylesheet" href="gas.css">
+    <script src="./gas_script.js" defer></script>
+  </head>
+  <body>
+    <div class="content" style="display: none;">
+      <h3 class= "category-label" id="category-label-1">Select a Vehicle</h3>
+      <select class= "category-select" id="category-select-1">
+        <option value="">-- Select a category --</option>
+        <option value="car">Car</option>
+        <option value="bike">Bike</option>
+        <option value="airplane">Airplane</option>
+        <option value="helicopter">Helicopter</option>
+        <option value="boat">Boat</option>
+      </select>
+      <br><br>
+      <h3 class= "category-label" id="category-label-2">Select a Restaurant</h3>
+      <select class= "category-select" id="category-select-2" disabled>
+        <option value="">-- Select a category first --</option>
+      </select>
+      <br><br>
+      <button id="display-button" disabled>Display Image</button>
+      <button id="reverse-button">Reverse Categories</button>
+      <br><br>
+      <img id="displayed-image" style="display:none;">
+    </div>
+    <img id="splashbg-img" src="images\Gas-Tronomy Welcome Page.jpeg">
+  </body>
+</html>
